@@ -20,13 +20,13 @@ function Guarantee() {
         </span>
         <div className="flex gap-1 items-baseline">
           <span className="text-xs text-gray-400 line-through text-[18px]">
-            ${Math.round(compareTotal)}
+            ${compareTotal.toFixed(2)}
           </span>
           <span
             className="text-[24px] font-bold leading-none"
             style={{ color: BRAND_PURPLE }}
           >
-            ${total}
+            ${total.toFixed(2)}
           </span>
         </div>
       </div>

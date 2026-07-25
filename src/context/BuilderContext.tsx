@@ -117,10 +117,18 @@ const BuilderContext = createContext<BuilderContextType | null>(null);
 
 function BuilderProvider({ children }: { children: ReactNode }) {
   const [openStep, setOpenStep] = useState(1);
-  const [cameras, setCameras] = useState(initialCameras);
-  const [selectedCameraVariants, setSelectedCameraVariants] = useState(
-    initialSelectedCameraVariants,
-  );
+  const [cameras, setCameras] = useState<Camera[]>(() => {
+    const saved = localStorage.getItem("cameras");
+
+    return saved ? JSON.parse(saved) : initialCameras;
+  });
+  const [selectedCameraVariants, setSelectedCameraVariants] = useState<
+    SelectedCameraVariant[]
+  >(() => {
+    const saved = localStorage.getItem("selectedCameraVariants");
+
+    return saved ? JSON.parse(saved) : initialSelectedCameraVariants;
+  });
   const [sensors] = useState(initialSensors);
   const [accessories] = useState(initialAccessories);
   const [plans] = useState(initialPlans);

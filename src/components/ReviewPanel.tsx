@@ -10,8 +10,16 @@ import { useBuilder } from "../context/BuilderContext";
 const BRAND_PURPLE = "#5433D6";
 
 export default function ReviewPanel() {
-  const { getTotals } = useBuilder();
+  const { getTotals, cameras, selectedCameraVariants } = useBuilder();
   const { savings } = getTotals();
+  function saveSystem() {
+    localStorage.setItem("cameras", JSON.stringify(cameras));
+
+    localStorage.setItem(
+      "selectedCameraVariants",
+      JSON.stringify(selectedCameraVariants),
+    );
+  }
   return (
     <div className="sm:p-14 xl:p-4 2xl:p-14 flex flex-col sm:flex-row xl:flex-col 2xl:flex-row sm:gap-14 xl:gap-0 justify-between w-full  rounded-[10px] p-5 bg-[#EDF1FF]">
       <div className="2xl:w-[551px]">
@@ -52,7 +60,10 @@ export default function ReviewPanel() {
           Checkout
         </button>
 
-        <button className="mt-1 w-full text-center text-[13px] font-medium text-gray-500 underline underline-offset-2 hover:text-gray-700">
+        <button
+          onClick={saveSystem}
+          className="cursor-pointer mt-1 w-full text-center text-[13px] font-medium text-gray-500 underline underline-offset-2 hover:text-gray-700"
+        >
           Save my system for later
         </button>
       </div>
