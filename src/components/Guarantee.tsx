@@ -7,7 +7,7 @@ function Guarantee() {
   return (
     <div className="mt-1 2xl:w-[486px] flex items-center justify-between">
       <img
-        src="/public/images/100-badge.png"
+        src="/public/images/badge.png"
         className="w-[71px] sm:w-[78px] 2xl:w-[131px] "
         alt=""
       />
