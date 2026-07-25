@@ -1,0 +1,163 @@
+{
+  "steps": [
+    {
+      "id": 1,
+      "title": "Choose your cameras",
+      "category": "cameras",
+      "products": [
+        {
+          "id": "cam-v4",
+          "name": "Wyze Cam v4",
+          "description": "The clearest Wyze Cam ever made.",
+          "image": "/images/cam-v4.png",
+          "price": 27.98,
+          "comparePrice": 35.98,
+          "badge": "Save 22%",
+          "learnMore": "#",
+          "variants": [
+            {
+              "id": "white",
+              "name": "White",
+              "image": "/images/cam-v4.png"
+            },
+            {
+              "id": "gray",
+              "name": "Gray",
+              "image": "/images/cam-v4.png"
+            },
+            {
+              "id": "black",
+              "name": "Black",
+              "image": "/images/cam-v4.png"
+            }
+          ]
+        },
+        {
+          "id": "cam-pan-v3",
+          "name": "Wyze Cam Pan v3",
+          "description": "360° pan and 180° tilt security camera.",
+          "image": "/images/cam-pan-v3.png",
+          "price": 34.98,
+          "comparePrice": 39.98,
+          "badge": "Save 12%",
+          "learnMore": "#",
+          "variants": [
+            {
+              "id": "white",
+              "name": "White",
+              "image": "/images/cam-pan-v3.png"
+            },
+            {
+              "id": "black",
+              "name": "Black",
+              "image": "/images/cam-pan-v3.png"
+            }
+          ]
+        },
+        {
+          "id": "floodlight",
+          "name": "Wyze Cam Floodlight v2",
+          "description": "2K floodlight camera.",
+          "image": "/images/floodlight.png",
+          "price": 69.98,
+          "comparePrice": 89.98,
+          "badge": "Save 22%",
+          "learnMore": "#",
+          "variants": [
+            {
+              "id": "white",
+              "name": "White",
+              "image": "/images/floodlight.png"
+            },
+            {
+              "id": "black",
+              "name": "Black",
+              "image": "/images/floodlight.png"
+            }
+          ]
+        },
+        {
+          "id": "doorbell",
+          "name": "Wyze Duo Cam Doorbell",
+          "description": "Two cameras. Two views.",
+          "image": "/images/doorbell.png",
+          "price": 69.98,
+          "comparePrice": null,
+          "badge": null,
+          "learnMore": "#",
+          "variants": []
+        },
+        {
+          "id": "battery-pro",
+          "name": "Wyze Battery Cam Pro",
+          "description": "Protect anywhere.",
+          "image": "/images/battery-pro.png",
+          "price": 89.98,
+          "comparePrice": null,
+          "badge": null,
+          "learnMore": "#",
+          "variants": [
+            {
+              "id": "white",
+              "name": "White",
+              "image": "/images/battery-pro.png"
+            },
+            {
+              "id": "black",
+              "name": "Black",
+              "image": "/images/battery-pro.png"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Choose your plan",
+      "category": "plan",
+      "products": [
+        {
+          "id": "cam-unlimited",
+          "name": "Cam Unlimited",
+          "price": 9.99,
+          "comparePrice": 12.99,
+          "image": "/images/plan.png"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Choose your sensors",
+      "category": "sensors",
+      "products": [
+        {
+          "id": "motion-sensor",
+          "name": "Wyze Sense Motion Sensor",
+          "price": 59.98,
+          "image": "/images/motion-sensor.png"
+        },
+        {
+          "id": "sense-hub",
+          "name": "Wyze Sense Hub",
+          "price": 0,
+          "comparePrice": 29.92,
+          "image": "/images/sense-hub.png",
+          "required": true
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Add extra protection",
+      "category": "accessories",
+      "products": [
+        {
+          "id": "micro-sd",
+          "name": "Wyze MicroSD Card (256GB)",
+          "price": 41.96,
+          "image": "/images/microsd.png"
+        }
+      ]
+    }
+  ]
+}
