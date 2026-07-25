@@ -1,4 +1,3 @@
-import React from "react";
 import Cameras from "./Cameras";
 import Sensors from "./Sensors";
 import Accessories from "./Accessories";
