@@ -24,7 +24,7 @@ function Cameras() {
               name={product.name}
               image={product.image}
               price={product.price}
-              originalPrice={product.comparePrice || 0}
+              originalPrice={product.comparePrice}
             />
           );
         })}

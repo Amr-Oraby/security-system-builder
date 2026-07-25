@@ -10,16 +10,13 @@ export default function QuantityStepper({ productId }: { productId: string }) {
     getSelectedCameraVariant,
     sensors,
     accessories,
-    cameras,
   } = useBuilder();
 
   const selectedVariant = getSelectedCameraVariant(productId);
   const product = productMap[productId];
-  // console.log(product);
   let quantity = 0;
 
   if (product.category === "cameras") {
-    console.log(cameras);
     quantity = getCameraQuantity(productId);
   } else if (product.category === "sensors") {
     quantity = sensors.find((s) => s.id === productId)?.quantity ?? 0;

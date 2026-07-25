@@ -21,7 +21,7 @@ export default function ReviewPanel() {
     );
   }
   return (
-    <div className="sm:p-14 xl:p-4 2xl:p-14 flex flex-col sm:flex-row xl:flex-col 2xl:flex-row sm:gap-14 xl:gap-0 justify-between w-full  rounded-[10px] p-5 bg-[#EDF1FF]">
+    <div className="sm:p-14 xl:p-4 2xl:p-14 flex flex-col sm:flex-row md:flex-col xl:flex-col 2xl:flex-row sm:gap-14 xl:gap-0 justify-between w-full  rounded-[10px] p-5 bg-[#EDF1FF]">
       <div className="2xl:w-[551px]">
         <header>
           <div className="text-[10px] font-semibold tracking-widest text-gray-400">

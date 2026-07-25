@@ -8,7 +8,6 @@ const variants = [
 
 export default function VariantSelector({ id }: { id: string }) {
   const { selectCameraVariant, selectedCameraVariants } = useBuilder();
-  // console.log(selectedCameraVariants);
   return (
     <div className="flex gap-2">
       {variants.map((variant) => {
