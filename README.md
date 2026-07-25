@@ -6,7 +6,7 @@ A responsive React application that allows users to build a custom home security
 
 ## Live Demo
 
-🔗 https://security-system-builder.vercel.app
+🔗 https://security-system-builder-beta.vercel.app/
 
 ## Tech Stack
 
